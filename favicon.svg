@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" fill="none">
+  <!-- Deep forest green background -->
+  <rect width="64" height="64" rx="12" fill="#2d3d2e"/>
+  <!-- Heart/apple motif in warm cream -->
+  <text x="32" y="46" text-anchor="middle" font-size="36" fill="#f5f0e8">❤</text>
+  <!-- Apple accent in burgundy -->
+  <circle cx="42" cy="18" r="4" fill="#7a2033"/>
+</svg>

@@ -1,0 +1,656 @@
+<!DOCTYPE html>
+<html lang="en-GB">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>The Love Apple Cafe-Bar | Saltaire, Shipley</title>
+  <meta name="description" content="The Love Apple Cafe-Bar — a welcoming cafe-bar on Bingley Road in Saltaire, Shipley. Vegetarian & vegan food, coffee, drinks, live music and a relaxed evening atmosphere. LGBTQ+ friendly." />
+  <link rel="canonical" href="https://loveapplecafebar.co.uk/" />
+  <link rel="icon" type="image/svg+xml" href="favicon.svg" />
+  <link rel="icon" type="image/png" href="https://loveapplecafebar.co.uk/wp-content/themes/love-apple/favicon-96x96.png" sizes="96x96" />
+  <link rel="apple-touch-icon" sizes="180x180" href="https://loveapplecafebar.co.uk/wp-content/themes/love-apple/apple-touch-icon.png" />
+
+  <!-- Open Graph -->
+  <meta property="og:type" content="restaurant" />
+  <meta property="og:title" content="The Love Apple Cafe-Bar | Saltaire" />
+  <meta property="og:description" content="A welcoming cafe-bar in the heart of Saltaire. Vegetarian & vegan food, great coffee, drinks and a warm atmosphere. LGBTQ+ friendly." />
+  <meta property="og:url" content="https://loveapplecafebar.co.uk/" />
+  <meta property="og:site_name" content="The Love Apple Cafe-Bar" />
+  <meta property="og:image" content="https://loveapplecafebar.co.uk/wp-content/uploads/2026/09/20260919_201428-1024x768.webp" />
+
+  <!-- Twitter Card -->
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="The Love Apple Cafe-Bar | Saltaire" />
+  <meta name="twitter:description" content="A welcoming cafe-bar in the heart of Saltaire. Vegetarian & vegan food, great coffee, drinks and a warm atmosphere." />
+  <meta name="twitter:image" content="https://loveapplecafebar.co.uk/wp-content/uploads/2026/09/20260919_201428-1024x768.webp" />
+
+  <!-- Structured Data -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "CafeOrCoffeeShop",
+    "name": "The Love Apple Cafe-Bar",
+    "url": "https://loveapplecafebar.co.uk/",
+    "telephone": "+447411287540",
+    "email": "theloveapplecafe@gmail.com",
+    "priceRange": "££",
+    "servesCuisine": ["Vegetarian", "Vegan", "Contemporary"],
+    "address": {
+      "@type": "PostalAddress",
+      "streetAddress": "44–46 Bingley Road",
+      "addressLocality": "Saltaire, Shipley",
+      "addressRegion": "West Yorkshire",
+      "postalCode": "BD18 4RU",
+      "addressCountry": "GB"
+    },
+    "geo": {
+      "@type": "GeoCoordinates",
+      "latitude": 53.834997,
+      "longitude": -1.793725
+    },
+    "openingHoursSpecification": [
+      {"@type":"OpeningHoursSpecification","dayOfWeek":"Tuesday","opens":"09:00","closes":"15:00"},
+      {"@type":"OpeningHoursSpecification","dayOfWeek":"Wednesday","opens":"09:00","closes":"15:00"},
+      {"@type":"OpeningHoursSpecification","dayOfWeek":"Thursday","opens":"09:00","closes":"22:00"},
+      {"@type":"OpeningHoursSpecification","dayOfWeek":"Friday","opens":"09:00","closes":"22:00"},
+      {"@type":"OpeningHoursSpecification","dayOfWeek":"Saturday","opens":"09:00","closes":"22:00"},
+      {"@type":"OpeningHoursSpecification","dayOfWeek":"Sunday","opens":"11:00","closes":"15:00"}
+    ],
+    "sameAs": [
+      "https://www.facebook.com/profile.php?id=100082075502132",
+      "https://www.instagram.com/theloveapplecafebar",
+      "https://www.tiktok.com/@theloveapplecafebar"
+    ]
+  }
+  </script>
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet" />
+
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- ===== ANNOUNCEMENT BAR ===== -->
+  <div class="announcement-bar" role="banner" aria-label="Site announcement">
+    <span>CAFÉ BY DAY&nbsp;&nbsp;•&nbsp;&nbsp;BAR BY NIGHT&nbsp;&nbsp;•&nbsp;&nbsp;SALTAIRE</span>
+  </div>
+
+  <!-- ===== NAVIGATION ===== -->
+  <header class="site-header" id="site-header">
+    <nav class="nav-inner" aria-label="Main navigation">
+      <a href="#home" class="nav-logo" aria-label="The Love Apple Cafe-Bar — home">
+        <span class="logo-name">LOVE APPLE</span>
+        <span class="logo-sub">CAFE-BAR</span>
+      </a>
+
+      <ul class="nav-links" role="list">
+        <li><a href="#home" class="nav-link">Home</a></li>
+        <li><a href="#about" class="nav-link">About</a></li>
+        <li><a href="#menu" class="nav-link">Menu</a></li>
+        <li><a href="#gallery" class="nav-link">Gallery</a></li>
+        <li><a href="#visit" class="nav-link">Visit Us</a></li>
+        <li><a href="#contact" class="nav-link">Contact</a></li>
+      </ul>
+
+      <a href="mailto:theloveapplecafe@gmail.com" class="btn btn-primary nav-cta">Get in Touch</a>
+
+      <button class="hamburger" id="hamburger" aria-label="Open menu" aria-expanded="false" aria-controls="mobile-menu">
+        <span></span><span></span><span></span>
+      </button>
+    </nav>
+
+    <!-- Mobile Menu -->
+    <div class="mobile-menu" id="mobile-menu" aria-hidden="true">
+      <ul class="mobile-nav-links" role="list">
+        <li><a href="#home" class="mobile-nav-link">Home</a></li>
+        <li><a href="#about" class="mobile-nav-link">About</a></li>
+        <li><a href="#menu" class="mobile-nav-link">Menu</a></li>
+        <li><a href="#gallery" class="mobile-nav-link">Gallery</a></li>
+        <li><a href="#visit" class="mobile-nav-link">Visit Us</a></li>
+        <li><a href="#contact" class="mobile-nav-link">Contact</a></li>
+      </ul>
+      <a href="mailto:theloveapplecafe@gmail.com" class="btn btn-primary mobile-cta">Get in Touch</a>
+    </div>
+  </header>
+
+  <main>
+
+    <!-- ===== HERO ===== -->
+    <section class="hero" id="home" aria-label="Welcome to The Love Apple Cafe-Bar">
+      <div class="hero-slideshow" aria-hidden="true">
+        <div class="hero-slide active" style="background-image:url('https://loveapplecafebar.co.uk/wp-content/uploads/2026/09/20260919_201428-1024x768.webp')"></div>
+        <div class="hero-slide" style="background-image:url('https://loveapplecafebar.co.uk/wp-content/uploads/2026/07/dish3-1024x768.webp')"></div>
+        <div class="hero-slide" style="background-image:url('https://loveapplecafebar.co.uk/wp-content/uploads/2026/09/%E2%9D%A4%EF%B8%8F%F0%9F%8D%8E-9.webp')"></div>
+      </div>
+      <div class="hero-overlay" aria-hidden="true"></div>
+
+      <div class="hero-content">
+        <p class="hero-eyebrow reveal">Saltaire, West Yorkshire</p>
+        <h1 class="hero-title reveal">
+          <span class="hero-title-main">Love Apple</span>
+          <span class="hero-title-sub">Cafe-Bar</span>
+        </h1>
+        <p class="hero-tagline reveal">Good food. Great drinks. Good company.</p>
+        <p class="hero-desc reveal">A welcoming cafe-bar in the heart of Saltaire.</p>
+        <div class="hero-actions reveal">
+          <a href="#menu" class="btn btn-primary btn-lg">Explore Our Menu</a>
+          <a href="#visit" class="btn btn-ghost btn-lg">Plan Your Visit</a>
+        </div>
+      </div>
+
+      <a href="#about" class="scroll-down" aria-label="Scroll to content">
+        <span class="scroll-down-line"></span>
+        <span class="scroll-down-label">Scroll</span>
+      </a>
+    </section>
+
+    <!-- ===== INTRODUCTION / BRAND STORY ===== -->
+    <section class="brand-story" id="about" aria-label="About Love Apple">
+      <div class="brand-story-inner">
+        <div class="brand-story-image reveal">
+          <div class="brand-image-frame">
+            <img
+              src="https://loveapplecafebar.co.uk/wp-content/uploads/2026/09/%E2%9D%A4%EF%B8%8F%F0%9F%8D%8E-9.webp"
+              alt="The Love Apple Cafe-Bar interior — warm and inviting"
+              loading="lazy"
+              width="600"
+              height="750"
+            />
+          </div>
+        </div>
+        <div class="brand-story-text reveal">
+          <span class="section-label">Our Story</span>
+          <h2 class="section-title">Welcome to<br/><em>Love Apple</em></h2>
+          <p class="brand-lead">
+            Tucked along Bingley Road in the beautiful village of Saltaire, Love Apple is a cafe-bar with real character — a place where great food meets a genuinely relaxed atmosphere.
+          </p>
+          <p>
+            We're open from morning coffee through to late-evening drinks, with a focus on vegetarian and vegan food that also welcomes fish and chicken lovers. Whether you're dropping in for breakfast, catching up over lunch, or settling in for an evening of good drinks and live music — Love Apple is your place.
+          </p>
+          <p>
+            We combine wholesome, tasty food with cool chilled tunes and a community spirit that makes everyone feel at home.
+          </p>
+          <address class="brand-address">
+            <svg aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>
+            44–46 Bingley Rd, Saltaire, BD18 4RU
+          </address>
+          <a href="#visit" class="btn btn-outline">Discover Love Apple</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== EXPERIENCE CARDS ===== -->
+    <section class="experience" aria-label="What we offer">
+      <div class="container">
+        <div class="section-header reveal">
+          <span class="section-label">The Experience</span>
+          <h2 class="section-title">More Than a Cafe</h2>
+        </div>
+        <div class="experience-grid">
+          <article class="exp-card reveal" tabindex="0">
+            <div class="exp-card-icon" aria-hidden="true">☕</div>
+            <h3 class="exp-card-title">Café</h3>
+            <p class="exp-card-desc">Relaxed daytime moments, great coffee and good food from 9am.</p>
+          </article>
+          <article class="exp-card reveal" tabindex="0">
+            <div class="exp-card-icon" aria-hidden="true">🍽</div>
+            <h3 class="exp-card-title">Food</h3>
+            <p class="exp-card-desc">Wholesome vegetarian and vegan dishes — plus fish and chicken — served with care and creativity.</p>
+          </article>
+          <article class="exp-card reveal" tabindex="0">
+            <div class="exp-card-icon" aria-hidden="true">🍸</div>
+            <h3 class="exp-card-title">Bar</h3>
+            <p class="exp-card-desc">Stay into the evening Thursday through Saturday for drinks and a relaxed atmosphere until 10pm.</p>
+          </article>
+          <article class="exp-card reveal" tabindex="0">
+            <div class="exp-card-icon" aria-hidden="true">🎵</div>
+            <h3 class="exp-card-title">Community</h3>
+            <p class="exp-card-desc">Live music, DJs and a welcoming space for locals, visitors and friends alike.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== MENU PREVIEW ===== -->
+    <section class="menu-section" id="menu" aria-label="Our menu">
+      <div class="container">
+        <div class="section-header reveal">
+          <span class="section-label">What We Serve</span>
+          <h2 class="section-title">The Menu</h2>
+          <p class="section-intro">
+            Focused on vegetarian and vegan food, with fish and chicken options too. Our kitchen is open all day, late on Thursday, Friday and Saturday evenings.
+          </p>
+        </div>
+
+        <div class="menu-tabs" role="tablist" aria-label="Menu categories">
+          <button class="menu-tab active" role="tab" aria-selected="true" data-tab="food">Food</button>
+          <button class="menu-tab" role="tab" aria-selected="false" data-tab="coffee">Coffee</button>
+          <button class="menu-tab" role="tab" aria-selected="false" data-tab="drinks">Drinks</button>
+          <button class="menu-tab" role="tab" aria-selected="false" data-tab="bar">Bar</button>
+        </div>
+
+        <div class="menu-panels">
+          <div class="menu-panel active" id="tab-food" role="tabpanel">
+            <div class="menu-notice">
+              <svg aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><line x1="12" y1="8" x2="12" y2="12"/><line x1="12" y1="16" x2="12.01" y2="16"/></svg>
+              <span>Our full menu is available on our food page and updated regularly. Visit us or check our social channels for the latest.</span>
+            </div>
+            <div class="menu-highlights">
+              <div class="menu-highlight-card">
+                <span class="menu-tag">Vegetarian &amp; Vegan</span>
+                <p>A focused, thoughtfully prepared menu that puts plant-based eating centre stage — with real flavour.</p>
+              </div>
+              <div class="menu-highlight-card">
+                <span class="menu-tag">Fish &amp; Chicken</span>
+                <p>Not exclusively veggie? We've got you covered with carefully selected fish and chicken options.</p>
+              </div>
+              <div class="menu-highlight-card">
+                <span class="menu-tag">Kitchen Hours</span>
+                <p>Kitchen open all week. Late service Thursday, Friday and Saturday until 7:30 pm.</p>
+              </div>
+            </div>
+            <div class="menu-price-note">Typical price range: <strong>£10–£20 per person</strong></div>
+          </div>
+
+          <div class="menu-panel" id="tab-coffee" role="tabpanel" hidden>
+            <div class="menu-notice">
+              <svg aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><line x1="12" y1="8" x2="12" y2="12"/><line x1="12" y1="16" x2="12.01" y2="16"/></svg>
+              <span>Our coffee menu is available in-house. Come in and enjoy a proper brew in a great atmosphere.</span>
+            </div>
+            <div class="menu-highlights">
+              <div class="menu-highlight-card">
+                <span class="menu-tag">Espresso &amp; Milk Drinks</span>
+                <p>From a morning flat white to an afternoon latte — great coffee is at the heart of what we do.</p>
+              </div>
+              <div class="menu-highlight-card">
+                <span class="menu-tag">Speciality &amp; Seasonal</span>
+                <p>Rotating seasonal drinks and speciality options to keep things interesting.</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="menu-panel" id="tab-drinks" role="tabpanel" hidden>
+            <div class="menu-notice">
+              <svg aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><line x1="12" y1="8" x2="12" y2="12"/><line x1="12" y1="16" x2="12.01" y2="16"/></svg>
+              <span>Soft drinks, juices and hot drinks available all day alongside our food menu.</span>
+            </div>
+            <div class="menu-highlights">
+              <div class="menu-highlight-card">
+                <span class="menu-tag">All-Day Drinks</span>
+                <p>Soft drinks, fresh juices and hot beverages to complement your meal any time of day.</p>
+              </div>
+              <div class="menu-highlight-card">
+                <span class="menu-tag">Evening Drinks</span>
+                <p>As we transition into bar mode Thu–Sat, discover our drinks selection for the evening crowd.</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="menu-panel" id="tab-bar" role="tabpanel" hidden>
+            <div class="menu-notice">
+              <svg aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><line x1="12" y1="8" x2="12" y2="12"/><line x1="12" y1="16" x2="12.01" y2="16"/></svg>
+              <span>Bar open Thursday, Friday and Saturday evenings until 10 pm. Check our events page for upcoming live music and DJs.</span>
+            </div>
+            <div class="menu-highlights">
+              <div class="menu-highlight-card">
+                <span class="menu-tag">Evening Bar</span>
+                <p>Thursday to Saturday we stay open until 10 pm — perfect for a relaxed evening out in Saltaire.</p>
+              </div>
+              <div class="menu-highlight-card">
+                <span class="menu-tag">Live Music &amp; DJs</span>
+                <p>Check our events for upcoming nights of live music and DJ sets in an intimate, welcoming space.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="menu-cta reveal">
+          <a href="https://loveapplecafebar.co.uk/food/" target="_blank" rel="noopener noreferrer" class="btn btn-primary btn-lg">View Full Menu</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== FEATURED FOOD EDITORIAL ===== -->
+    <section class="editorial" aria-label="Featured food and atmosphere">
+      <div class="editorial-inner">
+        <div class="editorial-header reveal">
+          <span class="section-label">From Our Kitchen</span>
+          <h2 class="section-title">Fresh, Thoughtful Food</h2>
+        </div>
+        <div class="editorial-grid">
+          <article class="editorial-card editorial-card--large reveal">
+            <div class="editorial-img-wrap">
+              <img
+                src="https://loveapplecafebar.co.uk/wp-content/uploads/2026/07/dish3-1024x768.webp"
+                alt="Feta dish from the Love Apple menu — vibrant and fresh"
+                loading="lazy"
+                width="800"
+                height="600"
+              />
+              <div class="editorial-card-body">
+                <span class="editorial-tag">From the Kitchen</span>
+                <h3>Vegetarian &amp; Vegan</h3>
+                <p>Plant-based cooking with real flavour and care — plus fish and chicken for those who want it.</p>
+              </div>
+            </div>
+          </article>
+          <div class="editorial-side">
+            <article class="editorial-card editorial-card--small reveal">
+              <div class="editorial-img-wrap">
+                <img
+                  src="https://loveapplecafebar.co.uk/wp-content/uploads/2026/09/20260919_201428-1024x768.webp"
+                  alt="Evening atmosphere at The Love Apple Cafe-Bar, Saltaire"
+                  loading="lazy"
+                  width="600"
+                  height="400"
+                />
+                <div class="editorial-card-body">
+                  <span class="editorial-tag">Evening Atmosphere</span>
+                  <h3>Stay for the Evening</h3>
+                  <p>Thursday through Saturday the bar comes alive. Good drinks, good company, chilled tunes.</p>
+                </div>
+              </div>
+            </article>
+            <div class="editorial-stat-block reveal">
+              <div class="stat">
+                <span class="stat-number">£10–£20</span>
+                <span class="stat-label">per person</span>
+              </div>
+              <div class="stat-divider"></div>
+              <div class="stat">
+                <span class="stat-number">6</span>
+                <span class="stat-label">days a week</span>
+              </div>
+              <div class="stat-divider"></div>
+              <div class="stat">
+                <span class="stat-number">10pm</span>
+                <span class="stat-label">Thu–Sat close</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== GALLERY ===== -->
+    <section class="gallery-section" id="gallery" aria-label="Gallery">
+      <div class="container">
+        <div class="section-header reveal">
+          <span class="section-label">Atmosphere</span>
+          <h2 class="section-title">A Glimpse Inside</h2>
+        </div>
+        <div class="gallery-grid">
+          <figure class="gallery-item gallery-item--tall reveal">
+            <img
+              src="https://loveapplecafebar.co.uk/wp-content/uploads/2026/09/20260919_201428-1024x768.webp"
+              alt="Evening atmosphere at The Love Apple Cafe-Bar — warm lighting and relaxed atmosphere in Saltaire"
+              loading="lazy"
+              width="600"
+              height="800"
+            />
+            <figcaption class="sr-only">Evening atmosphere at Love Apple</figcaption>
+          </figure>
+          <figure class="gallery-item reveal">
+            <img
+              src="https://loveapplecafebar.co.uk/wp-content/uploads/2026/07/dish3-1024x768.webp"
+              alt="Beautiful plated dish from the Love Apple kitchen — Feta"
+              loading="lazy"
+              width="600"
+              height="450"
+            />
+            <figcaption class="sr-only">Food at Love Apple Cafe-Bar</figcaption>
+          </figure>
+          <figure class="gallery-item reveal">
+            <img
+              src="https://loveapplecafebar.co.uk/wp-content/uploads/2026/09/%E2%9D%A4%EF%B8%8F%F0%9F%8D%8E-9.webp"
+              alt="Love Apple Cafe-Bar — welcoming and vibrant"
+              loading="lazy"
+              width="600"
+              height="450"
+            />
+            <figcaption class="sr-only">The Love Apple Cafe-Bar</figcaption>
+          </figure>
+          <!-- Placeholder cards for gallery depth -->
+          <figure class="gallery-item gallery-item--accent reveal" aria-hidden="true">
+            <div class="gallery-placeholder">
+              <span>☕</span>
+              <p>Coffee &amp; Morning Vibes</p>
+            </div>
+          </figure>
+          <figure class="gallery-item gallery-item--accent-dark reveal" aria-hidden="true">
+            <div class="gallery-placeholder gallery-placeholder--dark">
+              <span>🎵</span>
+              <p>Live Music &amp; Events</p>
+            </div>
+          </figure>
+          <figure class="gallery-item gallery-item--accent-mid reveal" aria-hidden="true">
+            <div class="gallery-placeholder gallery-placeholder--mid">
+              <span>🍸</span>
+              <p>Evening Bar, Thu–Sat</p>
+            </div>
+          </figure>
+        </div>
+        <p class="gallery-social-note reveal">
+          Follow us on <a href="https://www.instagram.com/theloveapplecafebar" target="_blank" rel="noopener noreferrer">Instagram</a> &amp; <a href="https://www.tiktok.com/@theloveapplecafebar" target="_blank" rel="noopener noreferrer">TikTok</a> for the latest photos and videos.
+        </p>
+      </div>
+    </section>
+
+    <!-- ===== SALTAIRE / FIND US ===== -->
+    <section class="find-us" id="visit" aria-label="Find us in Saltaire">
+      <div class="find-us-inner">
+        <div class="find-us-map reveal">
+          <iframe
+            title="The Love Apple Cafe-Bar on Google Maps"
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2527.805128810483!2d-1.7960116443571084!3d53.83499732553506!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x487be5005c1b2de5%3A0xeac9c0f3b519a856!2sThe%20Love%20Apple%20Cafe-Bar!5e0!3m2!1sen!2suk!4v1790079415961!5m2!1sen!2suk"
+            width="600"
+            height="450"
+            style="border:0;"
+            allowfullscreen=""
+            loading="lazy"
+            referrerpolicy="strict-origin-when-cross-origin"
+          ></iframe>
+        </div>
+        <div class="find-us-info reveal">
+          <span class="section-label">Find Us</span>
+          <h2 class="section-title">Find Us in<br/><em>Saltaire</em></h2>
+
+          <div class="info-block">
+            <h3 class="info-block-title">
+              <svg aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>
+              Address
+            </h3>
+            <address>
+              44–46 Bingley Road<br/>
+              Saltaire, Shipley<br/>
+              West Yorkshire<br/>
+              BD18 4RU
+            </address>
+          </div>
+
+          <div class="info-block">
+            <h3 class="info-block-title">
+              <svg aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="4" width="18" height="18" rx="2" ry="2"/><line x1="16" y1="2" x2="16" y2="6"/><line x1="8" y1="2" x2="8" y2="6"/><line x1="3" y1="10" x2="21" y2="10"/></svg>
+              Opening Hours
+            </h3>
+            <ul class="hours-list">
+              <li><span>Monday</span><span class="closed">Closed</span></li>
+              <li><span>Tuesday</span><span>9 am – 3 pm</span></li>
+              <li><span>Wednesday</span><span>9 am – 3 pm</span></li>
+              <li class="hours-evening"><span>Thursday</span><span>9 am – 10 pm</span></li>
+              <li class="hours-evening"><span>Friday</span><span>9 am – 10 pm</span></li>
+              <li class="hours-evening"><span>Saturday</span><span>9 am – 10 pm</span></li>
+              <li><span>Sunday</span><span>11 am – 3 pm</span></li>
+            </ul>
+            <p class="hours-note">Kitchen open until 7:30 pm on Thu, Fri &amp; Sat.</p>
+          </div>
+
+          <div class="info-block">
+            <h3 class="info-block-title">
+              <svg aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07A19.5 19.5 0 0 1 4.69 12a19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 3.6 1.27h3a2 2 0 0 1 2 1.72c.127.96.361 1.903.7 2.81a2 2 0 0 1-.45 2.11L7.91 8.91a16 16 0 0 0 6 6l.91-.9a2 2 0 0 1 2.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0 1 21.73 16.92z"/></svg>
+              Phone
+            </h3>
+            <a href="tel:+447411287540" class="phone-link">+44 7411 287540</a>
+          </div>
+
+          <div class="info-block">
+            <h3 class="info-block-title">
+              <svg aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
+              Email
+            </h3>
+            <a href="mailto:theloveapplecafe@gmail.com" class="email-link">theloveapplecafe@gmail.com</a>
+          </div>
+
+          <div class="find-us-actions">
+            <a href="https://www.google.com/maps/dir/?api=1&destination=The+Love+Apple+Cafe-Bar+Saltaire" target="_blank" rel="noopener noreferrer" class="btn btn-primary">Get Directions</a>
+            <a href="https://loveapplecafebar.co.uk/bookings/" target="_blank" rel="noopener noreferrer" class="btn btn-outline">Book a Table</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== COMMUNITY / WELCOME ===== -->
+    <section class="community" aria-label="Everyone's welcome">
+      <div class="community-inner">
+        <div class="community-content reveal">
+          <span class="section-label">A Place for Everyone</span>
+          <h2 class="section-title">Everyone's<br/><em>Welcome</em></h2>
+          <p>
+            Love Apple is a place where everyone belongs. We're proud to be a welcoming, inclusive space in the heart of Saltaire — a spot where you can be exactly who you are, surrounded by good food, great drinks and warm company.
+          </p>
+          <p class="community-badge">
+            <span class="pride-flag" aria-hidden="true">🏳️‍🌈</span>
+            LGBTQ+ Friendly
+          </p>
+        </div>
+        <div class="community-quote reveal">
+          <blockquote>
+            <p>"Combine your love for wholesome tasty food with cool chilled tunes."</p>
+            <footer>— The Love Apple Team</footer>
+          </blockquote>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== SOCIAL PROOF / FOLLOW ===== -->
+    <section class="social-proof" aria-label="Connect with us">
+      <div class="container">
+        <div class="social-proof-inner reveal">
+          <span class="section-label">Connect With Us</span>
+          <h2 class="section-title">Find Us Online</h2>
+          <p class="section-intro">Follow along on social media for the latest food, events, and what's happening at Love Apple.</p>
+          <div class="social-links-grid">
+            <a href="https://www.instagram.com/theloveapplecafebar" target="_blank" rel="noopener noreferrer" class="social-link-card">
+              <svg aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><rect x="2" y="2" width="20" height="20" rx="5" ry="5"/><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"/><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"/></svg>
+              <span class="social-platform">Instagram</span>
+              <span class="social-handle">@theloveapplecafebar</span>
+            </a>
+            <a href="https://www.facebook.com/profile.php?id=100082075502132" target="_blank" rel="noopener noreferrer" class="social-link-card">
+              <svg aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"/></svg>
+              <span class="social-platform">Facebook</span>
+              <span class="social-handle">The Love Apple Cafe-Bar</span>
+            </a>
+            <a href="https://www.tiktok.com/@theloveapplecafebar" target="_blank" rel="noopener noreferrer" class="social-link-card">
+              <svg aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M9 12a4 4 0 1 0 4 4V4a5 5 0 0 0 5 5"/></svg>
+              <span class="social-platform">TikTok</span>
+              <span class="social-handle">@theloveapplecafebar</span>
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== BIG CTA ===== -->
+    <section class="big-cta" id="contact" aria-label="Come visit us">
+      <div class="big-cta-overlay" aria-hidden="true"></div>
+      <div class="big-cta-content reveal">
+        <span class="section-label section-label--light">Come Visit</span>
+        <h2 class="big-cta-title">Come Say Hello</h2>
+        <p class="big-cta-desc">Find us on Bingley Road in Saltaire. We'd love to see you.</p>
+        <div class="big-cta-actions">
+          <a href="https://www.google.com/maps/dir/?api=1&destination=The+Love+Apple+Cafe-Bar+Saltaire" target="_blank" rel="noopener noreferrer" class="btn btn-cream btn-lg">Get Directions</a>
+          <a href="tel:+447411287540" class="btn btn-ghost-light btn-lg">
+            <svg aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07A19.5 19.5 0 0 1 4.69 12a19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 3.6 1.27h3a2 2 0 0 1 2 1.72c.127.96.361 1.903.7 2.81a2 2 0 0 1-.45 2.11L7.91 8.91a16 16 0 0 0 6 6l.91-.9a2 2 0 0 1 2.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0 1 21.73 16.92z"/></svg>
+            Call Love Apple
+          </a>
+        </div>
+        <p class="big-cta-phone">
+          <a href="tel:+447411287540">+44 7411 287540</a>
+        </p>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- ===== FOOTER ===== -->
+  <footer class="site-footer" aria-label="Site footer">
+    <div class="footer-inner">
+      <div class="footer-brand">
+        <a href="#home" class="footer-logo" aria-label="Back to top">
+          <span class="logo-name">LOVE APPLE</span>
+          <span class="logo-sub">CAFE-BAR</span>
+        </a>
+        <address class="footer-address">
+          44–46 Bingley Rd<br/>
+          Saltaire, Shipley<br/>
+          BD18 4RU<br/>
+          United Kingdom
+        </address>
+        <a href="tel:+447411287540" class="footer-phone">+44 7411 287540</a>
+        <a href="mailto:theloveapplecafe@gmail.com" class="footer-email">theloveapplecafe@gmail.com</a>
+        <p class="footer-lgbtq">
+          <span aria-hidden="true">🏳️‍🌈</span> LGBTQ+ Friendly
+        </p>
+      </div>
+
+      <nav class="footer-nav" aria-label="Footer navigation">
+        <h3 class="footer-nav-title">Navigate</h3>
+        <ul role="list">
+          <li><a href="#home">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#menu">Menu</a></li>
+          <li><a href="#gallery">Gallery</a></li>
+          <li><a href="#visit">Visit Us</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+
+      <div class="footer-info">
+        <h3 class="footer-nav-title">Opening Hours</h3>
+        <ul class="footer-hours" role="list">
+          <li><span>Mon</span><span class="closed">Closed</span></li>
+          <li><span>Tue–Wed</span><span>9 am – 3 pm</span></li>
+          <li><span>Thu–Sat</span><span>9 am – 10 pm</span></li>
+          <li><span>Sun</span><span>11 am – 3 pm</span></li>
+        </ul>
+        <div class="footer-social" aria-label="Social media links">
+          <a href="https://www.instagram.com/theloveapplecafebar" target="_blank" rel="noopener noreferrer" aria-label="Love Apple on Instagram">
+            <svg aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><rect x="2" y="2" width="20" height="20" rx="5" ry="5"/><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"/><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"/></svg>
+          </a>
+          <a href="https://www.facebook.com/profile.php?id=100082075502132" target="_blank" rel="noopener noreferrer" aria-label="Love Apple on Facebook">
+            <svg aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"/></svg>
+          </a>
+          <a href="https://www.tiktok.com/@theloveapplecafebar" target="_blank" rel="noopener noreferrer" aria-label="Love Apple on TikTok">
+            <svg aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M9 12a4 4 0 1 0 4 4V4a5 5 0 0 0 5 5"/></svg>
+          </a>
+        </div>
+      </div>
+    </div>
+
+    <div class="footer-bottom">
+      <p>© <span id="year"></span> The Love Apple Cafe-Bar. All rights reserved.</p>
+      <p>44–46 Bingley Rd, Saltaire, BD18 4RU, United Kingdom</p>
+    </div>
+  </footer>
+
+  <!-- Mobile floating call button -->
+  <a href="tel:+447411287540" class="mobile-call-fab" aria-label="Call The Love Apple Cafe-Bar">
+    <svg aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07A19.5 19.5 0 0 1 4.69 12a19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 3.6 1.27h3a2 2 0 0 1 2 1.72c.127.96.361 1.903.7 2.81a2 2 0 0 1-.45 2.11L7.91 8.91a16 16 0 0 0 6 6l.91-.9a2 2 0 0 1 2.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0 1 21.73 16.92z"/></svg>
+  </a>
+
+  <script src="script.js"></script>
+</body>
+</html>
